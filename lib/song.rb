@@ -4,6 +4,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genres = []
+  
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
@@ -39,6 +40,4 @@ class Song
     hash[e] += 1 
   end 
   hash
-end 
-
 end 
