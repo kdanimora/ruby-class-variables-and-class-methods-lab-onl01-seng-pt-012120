@@ -24,3 +24,5 @@ class Song
   def self.genres 
     p @@genres.uniq 
   end
+  
+  
